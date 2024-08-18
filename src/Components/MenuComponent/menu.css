@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #5d6d7e; /* Колір фону меню */
+}
+
+.menu nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    transition: color 0.3s;
+    color: #fff;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    transform: scale(1.01);
+}
+
+.theme-switcher-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.user-img img{
+    width: 20px;
+    height: 20px;
+}
+
